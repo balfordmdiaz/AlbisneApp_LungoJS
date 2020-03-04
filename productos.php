@@ -28,7 +28,7 @@
 <section id="main-section">
 	   <header data-title="albisne.com"></header>
 	   <article  id="main-article" class="active">
-	   <div id="lista1">
+	   <div id="lista1" >
 	   <p>Bienvenid@s ALBISNE.COM, una aplicación diseñada específicamente para móviles.</p><br/>	
 			<!-- Programando el acceso a php -->
 			<ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Búsqueda de productos" data-theme="c">
@@ -51,7 +51,10 @@
 				
 				<!-- Fin de la visualización -->
 			</ul>
-       </div>
+	   </div>
+
+
+
 	   </article>
 
 	   <article  id="dialog-1">

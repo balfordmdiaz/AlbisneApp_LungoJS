@@ -13,67 +13,21 @@
 	<title>albisne.com</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="format-detection" content="telephone=no">
-    <meta http-equiv="cleartype" content="on">
-
-    <!-- iPhone -->
-    <link href="http://lungo.tapquo.com/resources/icon-57.png" sizes="57x57" rel="apple-touch-icon">
-    <link href="http://lungo.tapquo.com/resources/startup-image-320x460.png" media="(device-width: 320px) and (device-height: 480px)
-             and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
-
-    <!-- iPhone (Retina) -->
-    <link href="http://lungo.tapquo.com/resources/icon-114.png" sizes="114x114" rel="apple-touch-icon">
-    <link href="http://lungo.tapquo.com/resources/startup-image-640x920.png" media="(device-width: 320px) and (device-height: 480px)
-             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-
-    <!-- iPhone 5 -->
-    <link href="http://lungo.tapquo.com/resources/startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px)
-             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-
-    <!-- iPad -->
-    <link href="http://lungo.tapquo.com/resources/icon-72.png" sizes="72x72" rel="apple-touch-icon">
-    <link href="http://lungo.tapquo.com/resources/startup-image-768x1004.png" media="(device-width: 768px) and (device-height: 1024px)
-             and (orientation: portrait)
-             and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
-    <link href="http://lungo.tapquo.com/resources/startup-image-748x1024.png" media="(device-width: 768px) and (device-height: 1024px)
-             and (orientation: landscape)
-             and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
-
-    <!-- iPad (Retina) -->
-    <link href="http://lungo.tapquo.com/resources/icon-144.png" sizes="144x144" rel="apple-touch-icon">
-    <link href="http://lungo.tapquo.com/resources/startup-image-1536x2008.png" media="(device-width: 768px) and (device-height: 1024px)
-             and (orientation: portrait)
-             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-    <link href="http://lungo.tapquo.com/resources/startup-image-1496x2048.png" media="(device-width: 768px) and (device-height: 1024px)
-             and (orientation: landscape)
-             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-
-
 	<link rel="stylesheet" type="text/css" href="jqm/mycss.css">
+
 	<link rel="stylesheet" type="text/css" href="lungo.css">
     <link rel="stylesheet" type="text/css" href="lungo.icon.css">
     <link rel="stylesheet" type="text/css" href="lungo.theme.css">
-
-	
 
 </head>
 <body>
 
 <section id="main-section">
-		<header data-title="albisne.com"></header>
-				
-		<article  id="main-article" class="active">
-		 <div id="lista1">
+		 <header data-title="albisne.com"></header>
+	     <article  id="main-article" class="active">
+		 <div id="lista1" style="height:97%; overflow: scroll;">
 			<h3>Introducción</h3>
 			Bienvenid@s ALBISNE.COM, una aplicación diseñada específicamente para móviles.</p></br>
-
-			
 			
 			<!-- Programando el acceso a php -->
 			<ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Búsqueda de categorías" data-theme="c">
@@ -141,7 +95,8 @@
 					<a href="#"  data-view-article="dialog-1" data-icon="help" class="active">Admin</a>
 		            <a href="#" data-view-article="dialog-2" data-icon="help" class="active">Menu</a>
                 </nav>
-		</footer>
+		  </footer>
+	
     
 
 
